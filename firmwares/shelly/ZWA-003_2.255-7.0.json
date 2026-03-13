@@ -1,0 +1,31 @@
+{
+	"devices": [
+		{
+			"brand": "Nabu Casa",
+			"model": "ZWA-003",
+			"manufacturerId": "0x0460",
+			"productType": "0x0001",
+			"productId": "0x0003",
+			"firmwareVersion": {
+				"min": "2.255",
+				"max": "7.0"
+			}
+		}
+	],
+	"upgrades": [
+		{
+			"version": "3.0",
+			"changelog": "- Only new bugs, no fixes",
+			"region": "korea",
+			"url": "https://github.com/AlCalzone/nc-zwave-repeater/releases/download/1.0.0/zwa2_repeater_1.0.0.gbl",
+			"integrity": "sha256:a34397a221eb886fbcc18ac090f57435e4045f95b4b962c9a03e00e894b692a7"
+		},
+		{
+			"version": "3.0",
+			"changelog": "This one actually has fixes\n\n**YES, REALLY!**",
+			"region": "russia",
+			"url": "https://github.com/AlCalzone/nc-zwave-zniffer/releases/download/1.1.0/zwa2_zniffer_1.0.0.gbl",
+			"integrity": "sha256:7cff37f8de0c92e3894ec614ef0e520bdc69829073cfc3aded7f7e862e9aa423"
+		}
+	]
+}
