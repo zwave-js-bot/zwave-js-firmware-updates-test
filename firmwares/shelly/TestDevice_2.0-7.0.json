@@ -1,0 +1,33 @@
+{
+	"devices": [
+		{
+			"brand": "Test",
+			"model": "TestDevice",
+			"manufacturerId": "0x0460",
+			"productType": "0x0001",
+			"productId": "0x0003",
+			"firmwareVersion": {
+				"min": "2.0",
+				"max": "7.0"
+			}
+		}
+	],
+	"upgrades": [
+		{
+			"version": "99.0",
+			"changelog": "Test firmware submission",
+			"files": [
+				{
+					"target": 0,
+					"url": "https://raw.githubusercontent.com/jascoproducts/firmware/9b5520f5056f7d3fce3fa6adc28bdaf27f8d0a68/zwave/UltraPro/ZW4008/39348%20-%20In-Wall%20Smart%20Paddle%20Switch%2C%20Quick-fit%20Simple%20Wire%2C%20500S/5.53/ZW4008_UltraPro_39348-54890-54891_5.53.otz",
+					"integrity": "sha256:8a2d9562c3102bde7732c9b11e06668b9894834b0350e31c2988bfce8b0292f7"
+				},
+				{
+					"target": 1,
+					"url": "https://raw.githubusercontent.com/jascoproducts/firmware/9b5520f5056f7d3fce3fa6adc28bdaf27f8d0a68/zwave/UltraPro/ZW4008/39348%20-%20In-Wall%20Smart%20Paddle%20Switch%2C%20Quick-fit%20Simple%20Wire%2C%20500S/5.53/ZW4008_UltraPro_39348-54890-54891_5.53.otz",
+					"integrity": "sha256:8a2d9562c3102bde7732c9b11e06668b9894834b0350e31c2988bfce8b0292f7"
+				}
+			]
+		}
+	]
+}
