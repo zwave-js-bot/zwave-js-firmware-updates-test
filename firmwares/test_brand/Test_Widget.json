@@ -1,0 +1,19 @@
+{
+	"devices": [
+		{
+			"brand": "Test Brand",
+			"model": "Test Widget",
+			"manufacturerId": "0x0063",
+			"productType": "0xaaaa",
+			"productId": "0xbbbb"
+		}
+	],
+	"upgrades": [
+		{
+			"version": "1.0",
+			"changelog": "- Initial release",
+			"url": "https://github.com/AlCalzone/nc-zwave-repeater/releases/download/1.0.0/zwa2_repeater_1.0.0.gbl",
+			"integrity": "sha256:a34397a221eb886fbcc18ac090f57435e4045f95b4b962c9a03e00e894b692a7"
+		}
+	]
+}
